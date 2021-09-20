@@ -10,7 +10,7 @@ def main():
 		for i in range(len(sys.argv)):
 			
 			if sys.argv[i] == "-v" or sys.argv[i] == "--version":
-				print("v0.1")
+				print("v0.2")
 				exit()
 			
 			if sys.argv[i] == "-d":
@@ -32,8 +32,8 @@ def main():
 	else:
 		print("""dumpress
 		Use:
-		dumpress <file>   uncompress
-		dumpress -d <folder> <file> uncompress on folder""")
+		dunpress <file>   uncompress
+		dunpress -d <folder> <file> uncompress on folder""")
 			
 def uncompress(File, Dir):
 	END=len(File)
